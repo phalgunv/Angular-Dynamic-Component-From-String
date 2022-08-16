@@ -17,6 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "buildOptimizer": false,
+            "optimization": false,
             "outputPath": "dist/dynamic",
             "index": "src/index.html",
             "main": "src/main.ts",
