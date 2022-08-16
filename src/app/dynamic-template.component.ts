@@ -1,5 +1,4 @@
 import { CommonModule } from '@angular/common';
-import '@angular/compiler';
 import {
   Compiler,
   Component,
